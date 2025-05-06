@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+* {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #020024;
+  background: radial-gradient(
+    circle,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  font-family: "Inter", sans-serif;
+}
+.bg-red {
+  background-color: tomato !important;
+}
+.bg-red:hover {
+  background-color: rgb(238, 73, 44) !important;
+}
+.bg-green {
+  background-color: lightgreen !important;
+}
+.bg-green:hover {
+  background-color: rgb(91, 235, 91) !important;
+}
+.form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.form h1 {
+  font-size: 60px;
+  color: white;
+  text-align: center;
+}
+.form input {
+  width: 400px;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 26px;
+  border: none;
+  margin-bottom: 5px;
+}
+.form button {
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: #0c9;
+  color: white;
+  font-weight: 600;
+  font-size: 26px;
+  cursor: pointer;
+  border: none;
+  margin-bottom: 26px;
+}
+.form button:hover {
+  background-color: rgb(1, 157, 118);
+}
+li {
+  font-size: 26px;
+  font-weight: 600;
+  color: white;
+}
